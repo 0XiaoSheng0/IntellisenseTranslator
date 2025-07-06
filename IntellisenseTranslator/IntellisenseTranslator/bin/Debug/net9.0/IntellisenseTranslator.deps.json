@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "IntellisenseTranslator/1.0.0": {
+        "dependencies": {
+          "GTranslate": "2.3.1"
+        },
+        "runtime": {
+          "IntellisenseTranslator.dll": {}
+        }
+      },
+      "GTranslate/2.3.1": {
+        "runtime": {
+          "lib/net8.0/GTranslate.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IntellisenseTranslator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GTranslate/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bHT6UbYjVWCmhNyxt73NEyJtE1tDl9OMrIGIMypn3DPD7S7pjUVbS1TyZF6N8V2qtn9mSlaiu+6XbecIvjQZ8w==",
+      "path": "gtranslate/2.3.1",
+      "hashPath": "gtranslate.2.3.1.nupkg.sha512"
+    }
+  }
+}
